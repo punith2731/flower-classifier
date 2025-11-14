@@ -1,2 +1,32 @@
-# flower-classifier
-This project uses Machine Learning to classify a flower into one of these 3 types:  Setosa  Versicolor  Virginica  The model predicts the flower type by looking at 4 measurements:  Sepal length  Sepal width  Petal length  Petal width  These 4 numbers describe a flower.
+# Iris Flower Classifier
+
+This is a simple Machine Learning project that predicts the type of iris flower (Setosa, Versicolor, Virginica) using a Decision Tree model.
+
+## 🛠 Tech Used
+- Python
+- scikit-learn
+- numpy
+
+## 📁 Project Structure
+```
+iris_classifier/
+│── main.py
+│── requirements.txt
+│── README.md
+```
+
+## ▶️ How to Run
+
+### 1. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 2. Run the Project
+```
+python main.py
+```
+
+## 🎯 Output
+- Model accuracy
+- Prediction of a sample flower
